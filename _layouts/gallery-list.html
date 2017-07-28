@@ -17,18 +17,19 @@ layout: compress
             <div class="content">
                 <div class="post-title">
                     <h1>{{ page.title }}</h1>
+                    <h5>{{ page.subtitle }}</h5>
                     <a class="btn zoombtn" href="{{site.url}}">
                         <i class="fa fa-home"></i>
                     </a>
                 </div>
                 <div class="post-list">
-                    {% for post in site.posts %} 
-                        {% if post.project %}
+                    {% for post in site.posts %}
+                        {% if post.gallery %}
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
                             <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                            <p>{{ post.excerpt }}</p>
-                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                            <img src="{{ site.url }}/{{ post.img }}" />
+                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">喜歡</a>
                         </li>
                     </ul>
                       {% endif %}

@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About me
+title: 關於我
+subtitle: 不愛打球的程序員不是好男票
 tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false

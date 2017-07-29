@@ -15,11 +15,19 @@ layout: compress
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
             <div class="content">
-                <div class="top-left-back">
-                  <a class="btn zoombtn" href="{{site.url}}">
-                      <i class="fa fa-home"> 主页</i>
+              <div class="text-left">
+                <a class="btn zoombtn" href="{{site.url}}">
+                    <i class="fa fa-home"> 主页</i>
+                </a>
+                <div class="pull-right">
+                  <a class="btn zoombtn tech" href="{{#}}">
+                      <i class="big">技术</i>/<i class="small">生活</i>
+                  </a>
+                  <a class="btn zoombtn life hidden" href="{{#}}">
+                      <i class="big">生活</i>/<i class="small">技术</i>
                   </a>
                 </div>
+              </div>
                 <div class="post-title">
                     <h1>{{ page.title }}</h1>
                     <h5>{{ page.subtitle }}</h5>
@@ -36,7 +44,7 @@ layout: compress
                               <span> • </span>
                               <span class="post-list-tag">{{ post.tags[0] }}</span>
                               <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn post-list-btn">
-                                <span class="term"><i class="fa fa-eye"></i> 繼續閱讀</span>
+                                <span class="term"><i class="fa fa-eye"></i> 继续阅读</span>
                               </a>
                             </div>
                             <hr class="post-list-hr" />
@@ -51,5 +59,17 @@ layout: compress
     {% include scripts.html %}
     <script src="{{ site.url }}/assets/js/wow.min.js"></script>
     <script type="text/javascript">(new WOW).init();</script>
+    <script type="text/javascript">
+      var techBtn = $('.tech');
+      var lifeBtn = $('.life');
+      techBtn.on('click', function() {
+        $(this).hide();
+        lifeBtn.show();
+      });
+      lifeBtn.on('click', function() {
+        $(this).hide();
+        techBtn.show();
+      });
+    </script>
 </body>
 </html>

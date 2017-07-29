@@ -12,6 +12,4 @@ tag:
 comments: true
 ---
 
-## HTML Elements
-
-What a big cat !!!
+## What a big cat !!!

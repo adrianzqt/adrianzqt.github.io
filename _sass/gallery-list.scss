@@ -1,7 +1,7 @@
 .gallery-li {
 	text-align: center;
 	.gallery-li-title {
-	  padding-bottom: 10px;
+		margin-top: 10px;
 	  text-align: center;
 		@include font-rem(28);
 	}
@@ -9,6 +9,7 @@
 		h4 {
 			font-size: 1em;
 			color: #bbb;
+			margin: 0 0 10px 0;
 		}
 	}
 	.btn {

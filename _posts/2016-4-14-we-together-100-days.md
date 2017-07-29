@@ -10,9 +10,13 @@ tag:
 comments: true
 ---
 
-## HTML Elements
+<figure>
+	<img src="{{ site.url }}/assets/img/galleries/100days.jpg">
+	<figcaption>我的小仙女.</figcaption>
+</figure>
 
-* @贝儿
+## @贝儿
+
 * 我们在一起100天了。
 * 每天有你，我好幸福好开心。
 

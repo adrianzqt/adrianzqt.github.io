@@ -1,6 +1,10 @@
-.continue-read-btn {
-  border: 1px solid #FF4136;
+.post-list-btn {
+  border: 2px solid #FF4136;
   border-radius: 16px;
+}
+.post-list-time, .post-list-tag {
+  font-size: 0.8em;
+  color: #bbb;
 }
 .post-list-hr {
   width: 30%;

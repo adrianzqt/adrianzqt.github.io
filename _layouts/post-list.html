@@ -15,12 +15,14 @@ layout: compress
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
             <div class="content">
+                <div class="top-left-back">
+                  <a class="btn zoombtn" href="{{site.url}}">
+                      <i class="fa fa-home"></i>
+                  </a>
+                </div>
                 <div class="post-title">
                     <h1>{{ page.title }}</h1>
                     <h5>{{ page.subtitle }}</h5>
-                    <a class="btn zoombtn" href="{{site.url}}">
-                        <i class="fa fa-home"></i>
-                    </a>
                 </div>
                 <div class="post-list">
                     {% for post in site.posts %}
@@ -30,15 +32,16 @@ layout: compress
                             <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                             <p>{{ post.excerpt }}</p>
                             <div class="post-list-meta">
-                              <span class="post-list-time">{{ post.date }}</span>
+                              <span class="post-list-time">{{ post.date | date_to_string }}</span>
+                              <span> • </span>
                               <span class="post-list-tag">{{ post.tags[0] }}</span>
-                              <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn continue-read-btn">
+                              <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn post-list-btn">
                                 <span class="term"><i class="fa fa-eye"></i> 繼續閱讀</span>
                               </a>
                             </div>
+                            <hr class="post-list-hr" />
                         </li>
                     </ul>
-                    <hr class="post-list-hr" />
                         {% endif %}
                     {% endfor %}
                 </div>

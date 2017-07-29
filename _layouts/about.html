@@ -15,13 +15,15 @@ layout: compress
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
             <div class="content">
+                <div class="top-left-back">
+                  <a class="btn zoombtn" href="{{site.url}}">
+                      <i class="fa fa-home"></i>
+                  </a>
+                </div>
                 <div class="post-title {% if page.feature %} feature {% endif %}">
                     <img src="{{ site.url }}{{ page.avatar }}" alt="my-avatar" class="my-avatar"/>
                     <h1>{{ page.title }}</h1>
                     <h5>{{ page.subtitl }}</h5>
-                    <a class="btn zoombtn" href="{{site.url}}">
-                        <i class="fa fa-home"></i>
-                    </a>
                 </div>
                 {{ content }}
             </div>

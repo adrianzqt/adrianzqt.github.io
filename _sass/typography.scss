@@ -86,6 +86,7 @@ figcaption {
     padding-top: 10px;
     @include font(14);
     color: $color_stack;
+		text-align: center;
 }
 
 // links

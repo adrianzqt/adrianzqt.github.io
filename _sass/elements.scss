@@ -146,6 +146,7 @@ figure {
   @include clearfix();
   img {
     margin-bottom: 10px;
+		width: 400px;
     @include rounded(4px);
   }
   &.half {

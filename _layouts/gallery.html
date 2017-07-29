@@ -16,9 +16,11 @@ layout: compress
         <div class="wrapper animated fadeIn">
             <div class="content">
                 <div class="post-title {% if page.feature %} feature {% endif %}">
-                  <a href="{{ site.url }}/galleries/" class="btn zoombtn">
-                    <span class="term"><i class="fa fa-arrow-circle-left"></i> 返回</span>
-                  </a>
+                  <div class="gallery-back">
+                    <a href="{{ site.url }}/galleries/" class="btn zoombtn">
+                      <span class="term"><i class="fa fa-arrow-circle-left"></i> 返回</span>
+                    </a>
+                  </div>
                     <h1>{{ page.title }}</h1>
                     <img src="{{ site.url }}{{ page.img }}" alt="cat" class="gallery-img">
                 </div>

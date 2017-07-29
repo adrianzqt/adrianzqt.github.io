@@ -1,7 +1,9 @@
 .gallery-li {
 	text-align: center;
-	a {
-	  @include font-rem(28);
+	.gallery-li-title {
+	  padding-bottom: 10px;
+	  text-align: center;
+		@include font-rem(28);
 	}
 	.btn {
 		margin-top: 12px;

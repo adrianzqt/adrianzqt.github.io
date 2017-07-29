@@ -124,14 +124,26 @@ img {
 	width: 150px;
 }
 .author-photo {
-    background-color: $white;
-		width: 100px;
-		border-radius: 50%;
+  background-color: $white;
+	width: 100px;
+	border-radius: 50%;
+}
+.my-avatar {
+	width: 120px;
+	height: 160px;
 }
 .image-right {
     float: right;
     margin-left: 1em;
     margin-top: 0;
+}
+.gallery-list-img {
+	width: 200px;
+	height: 200px;
+}
+.gallery-img {
+	width: 400px;
+	height: 400px;
 }
 figure {
   margin: 0;

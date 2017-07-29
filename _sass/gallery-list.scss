@@ -1,5 +1,13 @@
 .gallery-li {
 	text-align: center;
+	a {
+	  @include font-rem(28);
+	}
+	.btn {
+		margin-top: 12px;
+		padding: 6px 14px;
+		@include font-rem(14);
+	}
 }
 .gallery-list-btn {
   border: 2px solid #FF4136;
@@ -9,7 +17,7 @@
 	width: 400px;
 	height: 400px;
 }
-.post-list-hr {
+.gallery-list-hr {
   width: 60%;
   margin: 2em 0;
   border-bottom: 1px solid #ccc;

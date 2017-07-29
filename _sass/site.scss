@@ -104,11 +104,11 @@ body {
 	width: 75%;
 	max-width: 850px;
 	margin: 4rem auto;
-	background: $white;
+	background: rgba($white, .2);
 	color: $color_tuatara;
 	padding: 2em;
 	border-radius: 3px;
-	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+	box-shadow: 0 0 10px 0 rgba($color_shark,0.4);
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;

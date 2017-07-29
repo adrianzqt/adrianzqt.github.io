@@ -78,7 +78,9 @@
 }
 .post-list {
     .btn {
-        @include font-rem(14);
+			  margin-left: 8px;
+		    padding: 6px 10px;
+        @include font-rem(8);
     }
 }
 .top-left-back {

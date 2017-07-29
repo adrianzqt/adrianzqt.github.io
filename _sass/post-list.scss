@@ -9,5 +9,10 @@
 .post-list-hr {
   width: 30%;
   margin: 2em 0;
-  border: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.gallery-li-title {
+  padding-bottom: 10px;
+  text-align: center;
+	@include font-rem(28);
 }

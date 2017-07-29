@@ -11,7 +11,7 @@ comments: true
 ---
 
 <figure>
-	<img src="{{ site.url }}/assets/img/galleries/100days.jpg">
+	<img src="{{ site.url }}/assets/img/posts/100days.jpg">
 	<figcaption>我的小仙女.</figcaption>
 </figure>
 

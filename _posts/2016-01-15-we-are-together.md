@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "我们和我的傻丫头"
+title:  "我和我的傻丫头"
 date:   2016-01-15
 excerpt: "你是我大学里最大的惊喜。"
 categories: [life]
@@ -11,7 +11,7 @@ comments: true
 ---
 
 <figure>
-	<img src="{{ site.url }}/assets/img/galleries/together.jpg">
+	<img src="{{ site.url }}/assets/img/posts/together.jpg">
 	<figcaption>我的傻丫头.</figcaption>
 </figure>
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2016年常规赛最后一天"
-date:   2016-01-15
+date:   2016-04-14
 excerpt: "科比和库里，老詹最伟大的对手。"
 categories: [life]
 tag:
@@ -10,11 +10,11 @@ comments: true
 ---
 
 <figure>
-	<img src="{{ site.url }}/assets/img/galleries/kobecurry.jpg">
+	<img src="{{ site.url }}/assets/img/posts/kobecurry.jpg">
 	<figcaption>This is why we play.</figcaption>
 </figure>
 
-## @贝儿
+## 壮士暮年&如日中天
 
 * 2016年4月14日。
 * 属于两个男人。

@@ -5,8 +5,10 @@ date:   2016-04-14
 excerpt: "科比和库里，老詹最伟大的对手。"
 categories: [life]
 tag:
-- basketball
-comments: true
+- 篮球
+- 科比
+- 库里
+comments: false
 ---
 
 <figure>

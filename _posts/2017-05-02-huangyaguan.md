@@ -1,8 +1,8 @@
 ---
 layout: gallery
-title:  "泰山在我们脚下"
-date:   2016-09-25
-img: "/assets/img/galleries/mounttai.jpg"
+title:  "征服黄崖关"
+date:   2017-05-02
+img: "/assets/img/galleries/huangyaguan.jpg"
 gallery: true
 categories: [life]
 tag:

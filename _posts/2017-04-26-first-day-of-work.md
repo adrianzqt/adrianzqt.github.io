@@ -6,8 +6,8 @@ img: "/assets/img/galleries/sanlitun.jpg"
 gallery: true
 categories: [life]
 tag:
-- work
-- beijing
-- web
-comments: true
+- 工作
+- 北京
+- 前端
+comments: false
 ---

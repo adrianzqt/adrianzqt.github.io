@@ -2,6 +2,7 @@
 layout: post
 title:  "我和我的傻丫头"
 date:   2016-01-15
+permalink: /posts/:categories/:month-:day-:year/:title.html
 excerpt: "你是我大学里最大的惊喜。"
 categories: [life]
 tag:

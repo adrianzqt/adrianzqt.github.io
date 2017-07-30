@@ -2,6 +2,7 @@
 layout: post
 title:  "我们在一起一百天了"
 date:   2016-04-14
+permalink: /posts/:categories/:month-:day-:year/:title.html
 excerpt: "每天有你，我好幸福好开心。"
 categories: [life]
 tag:

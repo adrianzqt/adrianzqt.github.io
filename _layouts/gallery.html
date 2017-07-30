@@ -1,6 +1,5 @@
 ---
 layout: compress
-permalink: /gallery/:categories/:month-:day-:year/:title.html
 ---
 <!DOCTYPE html>
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -16,12 +15,12 @@ permalink: /gallery/:categories/:month-:day-:year/:title.html
     <header class="header" role="banner">
         <div class="wrapper detail-wrapper animated fadeIn">
             <div class="content">
+              <div class="text-left">
+                <a href="{{ site.url }}/galleries/" class="btn zoombtn">
+                  <span class="term"><i class="fa fa-arrow-circle-left"></i> 返回</span>
+                </a>
+              </div>
                 <div class="post-title {% if page.feature %} feature {% endif %}">
-                  <div class="text-left">
-                    <a href="{{ site.url }}/galleries/" class="btn zoombtn">
-                      <span class="term"><i class="fa fa-arrow-circle-left"></i> 返回</span>
-                    </a>
-                  </div>
                     <h1>{{ page.title }}</h1>
                     <h4>{{ page.date | date_to_string }}</h4>
                     <img src="{{ site.url }}{{ page.img }}" alt="cat" class="gallery-img">

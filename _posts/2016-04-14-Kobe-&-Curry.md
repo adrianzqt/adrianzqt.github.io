@@ -2,6 +2,7 @@
 layout: post
 title:  "2016年常规赛最后一天"
 date:   2016-04-14
+permalink: /posts/:categories/:month-:day-:year/:title.html
 excerpt: "科比和库里，老詹最伟大的对手。"
 categories: [life]
 tag:

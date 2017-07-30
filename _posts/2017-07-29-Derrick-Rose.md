@@ -2,6 +2,7 @@
 layout: post
 title: "不屈的克城玫瑰，愿你归来仍是少年"
 date: 2017-7-29
+permalink: /posts/:categories/:month-:day-:year/:title.html
 excerpt: "他妈的还有人能这样打球？五年前我是这样看每周十佳球的"
 categories: [life]
 tag:

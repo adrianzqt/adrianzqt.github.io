@@ -2,6 +2,7 @@
 layout: post
 title:  "我们是总冠军！"
 date:   2016-06-20
+permalink: /posts/:categories/:month-:day-:year/:title.html
 excerpt: "All in, Cleveland this is for you."
 categories: [life]
 tag:

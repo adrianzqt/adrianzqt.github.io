@@ -68,9 +68,8 @@ body {
 .container {
 	width: 36rem;
 	max-width: 550px;
-	margin-top: 72px;
-	padding-right: 12px;
-	padding-left: 12px;
+	padding-right: 15px;
+	padding-left: 15px;
 	@include center-block();
 	background-color: $white;
 	color: $color_shark;
@@ -80,6 +79,9 @@ body {
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
+	  margin-top: 72px;
+		padding-right: 12px;
+		padding-left: 12px;
 	}
 	@media #{$medium} {
 		width: 80%;

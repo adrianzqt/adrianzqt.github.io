@@ -1,6 +1,11 @@
 .guide {
   .btn {
     padding: 20px 38px;
+    border-radius: 32px;
 	  @include font-rem(18);
+    @media #{$small} {
+      padding: 16px 20px;
+      border-radius: 24px;
+  	}
   }
 }

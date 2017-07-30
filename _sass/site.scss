@@ -97,6 +97,7 @@ body {
 	    margin-bottom: 5px;
 	}
 	@media #{$small} {
+		margin-top: 64px;
 		padding: 0 1em;
 	}
 }

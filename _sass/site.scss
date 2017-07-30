@@ -19,10 +19,6 @@ body {
 	background-color: $bodycolor;
 	background-position: center center;
 	background-attachment: fixed;
-	@media #{$small} {
-	    background-image: none !important;
-		background: $white;
-	}
 }
 * {
 	box-sizing: border-box;
@@ -72,8 +68,9 @@ body {
 .container {
 	width: 36rem;
 	max-width: 550px;
-	padding-right: 15px;
-	padding-left: 15px;
+	margin-top: 72px;
+	padding-right: 12px;
+	padding-left: 12px;
 	@include center-block();
 	background-color: $white;
 	color: $color_shark;
@@ -82,8 +79,7 @@ body {
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	@include transition(.5s);
 	@media #{$small} {
-		width: 100%;
-	    box-shadow: none;
+		width: 90%;
 	}
 	@media #{$medium} {
 		width: 80%;
@@ -97,7 +93,7 @@ body {
 	    margin-bottom: 5px;
 	}
 	@media #{$small} {
-		margin-top: 64px;
+		margin-top: 32px;
 		padding: 0 1em;
 	}
 }

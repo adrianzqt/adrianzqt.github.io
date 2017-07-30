@@ -29,9 +29,8 @@ layout: compress
                         	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
 			            </a>
                     </h3>
-                    {% include social-links.html %}
                   <hr class="hr-line">
-                  <h3 class="title">
+                  <h3 class="title guide">
                          <a class="btn zoombtn" href="{{ site.url }}/about">
                          關於
                          </a>
@@ -39,9 +38,10 @@ layout: compress
                          博客
                          </a>
                          <a class="btn zoombtn" href="{{ site.url }}/galleries">
-                          圖說
+                         圖說
                          </a>
                  </h3>
+                 {% include social-links.html %}
             </div>
         </div>
     </header>

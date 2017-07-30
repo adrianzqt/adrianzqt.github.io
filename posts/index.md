@@ -1,6 +1,6 @@
 ---
 layout: post-list
-title: 所有文章
+title: 博客
 subtitle: "關於我的都在這裏"
 background: 'assets/img/background-images/posts.jpg'
 comments: false

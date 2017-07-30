@@ -51,7 +51,14 @@
     {% capture background %}{{ site.background }}{% endcapture %}
     {% endif %}
     {% unless background contains 'http://' or background contains 'https://' %}{% capture background %}{{ site.url }}/{{ background }}{% endcapture %}{% endunless %}
-    <style type="text/css">body {background-image:url({{ background }}); {% unless site.tiled_bg %} background-repeat: no-repeat; background-size: cover; {% endunless %}}</style>
+    <!-- Background Image - Mobile -->
+    {% if page.background-mobile %}
+    {% capture background-mobile %}{{ page.background-mobile }}{% endcapture %}
+    {% else %}
+    {% capture background-mobile %}{{ site.background-mobile }}{% endcapture %}
+    {% endif %}
+    {% unless background-mobile contains 'http://' or background-mobile contains 'https://' %}{% capture background-mobile %}{{ site.url }}/{{ background-mobile }}{% endcapture %}{% endunless %}
+    <style type="text/css">body {background-image:url({{ background }}); {% unless site.tiled_bg %} background-repeat: no-repeat; background-size: cover; {% endunless %} @media #{$small} {background-image:url({{ background-mobile }});}}</style>
     <!-- Post Feature Image -->
     {% if page.feature %}
     {% capture feature %}{{ page.feature }}{% endcapture %}

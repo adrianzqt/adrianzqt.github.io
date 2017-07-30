@@ -19,6 +19,9 @@ body {
 	background-color: $bodycolor;
 	background-position: center center;
 	background-attachment: fixed;
+	@media #{$small} {
+		background-size: 100% 100%;
+	}
 }
 * {
 	box-sizing: border-box;
@@ -94,7 +97,7 @@ body {
 	}
 	@media #{$small} {
 		margin-top: 32px;
-		padding: 0 1em;
+		padding: 16px 1em;
 	}
 }
 .wrapper {

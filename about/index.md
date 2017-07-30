@@ -4,6 +4,7 @@ title: 张青天
 subtitle: 不愛打球的程序員不是好男票
 avatar: "/assets/img/my-avatar.jpg"
 background: 'assets/img/background-images/about.jpg'
+background-mobile: 'assets/img/background-images/about-mobile.jpg'
 tags: [about, profile, me, work]
 date: 2016-03-21
 comments: false

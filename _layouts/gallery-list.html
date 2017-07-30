@@ -28,7 +28,7 @@ layout: compress
                     {% for post in site.posts %}
                         {% if post.gallery %}
                     <ul>
-                        <li class="wow fadeInLeft gallery-li" data-wow-duration="1.5s">
+                        <li class="wow fadeInLeft gallery-li" data-wow-duration="1.5s" id="{{ post.title }}">
                           <div class="gallery-li-title">
                             <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                           </div>

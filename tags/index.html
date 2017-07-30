@@ -5,18 +5,22 @@ description: "根据每篇文章的标签分类~"
 comments: false
 ---
 
-{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-{% assign tags_list = site_tags | split:',' | sort %}
+
+{% capture counts_with_tags_string %}{% for tag in site.tags %}{{ tag[1] | size | prepend:"000000" | slice:-6,6 }}:{{ tag[0] }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign counts_with_tags = counts_with_tags_string | split:"," | sort | reverse %}
 
 <ul class="entry-meta inline-list">
-  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-  	<li><a href="#{{ this_word }}" class="tag"><span class="term">{{ this_word }}</span> <span class="count">{{ site.tags[this_word].size }}</span></a></li>
-  {% endunless %}{% endfor %}
+  {% for count_with_tag in counts_with_tags %}
+  {% assign tag = count_with_tag | split:":" | last %}
+  {% assign count = site.tags[tag] | size %}
+    <li><a href="#{{ tag }}" class="tag"><span class="term">{{ tag }}</span> <span class="count">{{ count }}</span></a></li>
+  {% endfor %}
 </ul>
 
-{% for item in (0..site.tags.size) %}{% unless forloop.last %}
-  {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
+{% for count_with_tag in counts_with_tags %}
+  {% assign tag = count_with_tag | split:":" | last %}
+  {% assign count = site.tags[tag] | size %}
+  {% capture this_word %}{{ tag | strip_newlines }}{% endcapture %}
 	<article>
 	<h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
 		<ul>

@@ -7,7 +7,6 @@ img: "/assets/img/galleries/huangyaguan.jpg"
 gallery: true
 categories: [life]
 tag:
-- 爱情
 - 旅行
 - 家祺
 comments: false

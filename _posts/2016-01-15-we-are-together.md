@@ -6,7 +6,6 @@ permalink: /posts/:categories/:month-:day-:year/:title.html
 excerpt: "你是我大学里最大的惊喜。"
 categories: [life]
 tag:
-- 爱情
 - 家祺
 comments: false
 ---

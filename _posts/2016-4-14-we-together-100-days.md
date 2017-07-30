@@ -6,7 +6,6 @@ permalink: /posts/:categories/:month-:day-:year/:title.html
 excerpt: "每天有你，我好幸福好开心。"
 categories: [life]
 tag:
-- 爱情
 - 家祺
 comments: false
 ---

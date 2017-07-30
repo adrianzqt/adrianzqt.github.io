@@ -34,6 +34,8 @@ layout: compress
                           </div>
                           <div class="gallery-li-subtitle">
                             <h4>{{ post.date | date_to_string }}</h4>
+                            <h4> • </h4>
+                            <h4>{{ post.tags[0] }}</h4>
                           </div>
                             <img src="{{ site.url }}/{{ post.img }}" class="gallery-list-img"/>
                             <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn gallery-list-btn">

@@ -1,13 +1,13 @@
 ---
 layout: gallery
-title:  "上海 • 一周年"
-date:   2017-01-15
+title:  "卧槽你们打球不叫我"
+date:   2017-06-26
 permalink: /galleries/:categories/:month-:day-:year/:title.html
-img: "/assets/img/galleries/shanghai.jpg"
+img: "/assets/img/galleries/wuguangyi.jpg"
 gallery: true
 categories: [life]
 tag:
-- 旅行
-- 家祺
+- 篮球
+- 南开
 comments: false
 ---

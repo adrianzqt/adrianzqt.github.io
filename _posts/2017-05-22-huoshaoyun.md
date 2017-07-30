@@ -1,13 +1,12 @@
 ---
 layout: gallery
-title:  "上海 • 一周年"
-date:   2017-01-15
+title:  "【无滤镜】火烧云"
+date:   2017-05-22
 permalink: /galleries/:categories/:month-:day-:year/:title.html
-img: "/assets/img/galleries/shanghai.jpg"
+img: "/assets/img/galleries/huoshaoyun.jpg"
 gallery: true
 categories: [life]
 tag:
-- 旅行
-- 家祺
+- 北京
 comments: false
 ---

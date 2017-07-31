@@ -103,7 +103,7 @@ body {
 	width: 75%;
 	max-width: 850px;
 	margin: 4rem auto;
-	background: rgba($white, .2);
+	background: rgba($white, .4);
 	color: $color_tuatara;
 	padding: 2em;
 	border-radius: 3px;
@@ -172,27 +172,43 @@ body {
 	}
 }
 header .entry-meta {
-	display: none; // hide header meta on small screens
 	@media #{$notsmall} {
-		display: block;
 	}
 }
 .entry-title a {
     text-decoration: none;
 }
 .entry-tags {
-	display: block;
+	  display: block;
     margin-top: 1rem;
-	width: 70%;
+	  width: 50%;
     float: left;
     text-align: left;
+		@media #{$small} {
+	      width: 100%;
+    }
 }
 .social-share {
-	display: block;
+	  display: block;
     margin-top: 1rem;
-    width: 30%;
+    width: 50%;
     float: right;
     text-align: right;
+    @media #{$small} {
+	      width: 100%;
+        float: left;
+        text-align: left;
+    }
+}
+.related-share {
+	display: inline-block;
+  background-color: #fff;
+  color: #383838;
+  margin: 2px 5px;
+	span {
+		float: left;
+    padding: 2px 6px;
+	}
 }
 .feature {
     @include transition(.5s);

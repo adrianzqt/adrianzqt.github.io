@@ -188,7 +188,7 @@ header .entry-meta {
 	      width: 100%;
     }
 }
-.social-share {
+.social-share-mine {
 	  display: block;
     margin-top: 1rem;
     width: 50%;
@@ -208,6 +208,23 @@ header .entry-meta {
 	span {
 		float: left;
     padding: 2px 6px;
+	}
+}
+.social-share-block {
+	display: block;
+	margin-top: 1rem;
+	width: 50%;
+	float: right;
+	text-align: right;
+	@media #{$small} {
+			width: 100%;
+			float: left;
+			text-align: left;
+	}
+	.social-share {
+		display: inline;
+		position: relative;
+    bottom: 8px;
 	}
 }
 .feature {

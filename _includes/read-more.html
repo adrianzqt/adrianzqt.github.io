@@ -1,0 +1,17 @@
+<div class="read-more">
+  {% if page.previous %}
+  {% assign previous = page.previous %}
+      <a href="{{ previous.url }}" title="{{ previous.title }}" class="tag read-previous">
+              <span class="term"><i class="fa fa-arrow-left"> 上一篇</i></span>
+      </a>
+  {% endif %}
+
+  {% if page.next %}
+  {% assign next = page.next %}
+      <a href="{{ next.url }}" title="{{ next.title }}" class="tag read-next">
+              <span class="term"><i class="fa fa-arrow-right"> 下一篇</i></span>
+      </a>
+  {% endif %}
+
+  <div style="clear:both"></div>
+</div>

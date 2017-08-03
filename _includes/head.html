@@ -61,7 +61,7 @@
     {% capture background-mobile %}{{ site.background-mobile }}{% endcapture %}
     {% endif %}
     {% unless background-mobile contains 'http://' or background-mobile contains 'https://' %}{% capture background-mobile %}{{ site.url }}/{{ background-mobile }}{% endcapture %}{% endunless %}
-    <style type="text/css">body {background-image:url({{ background }}); {% unless site.tiled_bg %} background-repeat: no-repeat; background-size: cover; {% endunless %} @media #{$small} {background-image:url({{ background-mobile }});}} @media only screen and (max-width: 30em) {body {background-image:url({{ background-mobile }});}}</style>
+    <style type="text/css">body, body::before {background-image:url({{ background }}); {% unless site.tiled_bg %} background-repeat: no-repeat; background-size: cover; {% endunless %} @media #{$small} {background-image:url({{ background-mobile }});}} @media only screen and (max-width: 30em) {body, &::before {background-image:url({{ background-mobile }});}}</style>
     <!-- Post Feature Image -->
     {% if page.feature %}
     {% capture feature %}{{ page.feature }}{% endcapture %}

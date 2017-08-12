@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: gallery
 title:  "我们是总冠军！"
 date:   2016-06-20
-permalink: /posts/:categories/:month-:day-:year/:title.html
+permalink: /:categories/:month-:day-:year/:title.html
+img: "/assets/img/life/champion.jpg"
+gallery: true
 excerpt: "All in, Cleveland this is for you."
 categories: [life]
 tag:
@@ -10,11 +12,6 @@ tag:
 - 詹姆斯
 comments: false
 ---
-
-<figure>
-	<img src="{{ site.url }}/assets/img/posts/champion.jpg">
-	<figcaption>Yes we do.</figcaption>
-</figure>
 
 ## ALL IN
 

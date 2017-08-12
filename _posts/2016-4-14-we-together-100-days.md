@@ -1,19 +1,16 @@
 ---
-layout: post
+layout: gallery
 title:  "我们在一起一百天了"
 date:   2016-04-14
-permalink: /posts/:categories/:month-:day-:year/:title.html
+permalink: /:categories/:month-:day-:year/:title.html
+img: "/assets/img/life/100days.jpg"
+gallery: true
 excerpt: "每天有你，我好幸福好开心。"
 categories: [life]
 tag:
 - 家祺
 comments: false
 ---
-
-<figure>
-	<img src="{{ site.url }}/assets/img/posts/100days.jpg">
-	<figcaption>我的小仙女.</figcaption>
-</figure>
 
 ## @贝儿
 

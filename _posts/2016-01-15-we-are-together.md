@@ -1,19 +1,16 @@
 ---
-layout: post
+layout: gallery
 title:  "我和我的傻丫头"
 date:   2016-01-15
-permalink: /posts/:categories/:month-:day-:year/:title.html
+permalink: /:categories/:month-:day-:year/:title.html
+img: "/assets/img/life/together.jpg"
+gallery: true
 excerpt: "你是我大学里最大的惊喜。"
 categories: [life]
 tag:
 - 家祺
 comments: false
 ---
-
-<figure>
-	<img src="{{ site.url }}/assets/img/posts/together.jpg">
-	<figcaption>我的傻丫头.</figcaption>
-</figure>
 
 ## @贝儿
 

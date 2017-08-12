@@ -1,6 +1,6 @@
 # Site
 title:              "青天的小站"
-bio:                '心無所恃，隨遇而安'
+bio:                'Hello, 欢迎来到张青天的个人博客'
 description:        "张青天的个人博客，技术，生活"
 keywords:           "张青天，技术博客，前端，生活，篮球"
 author:             "张青天"
@@ -13,7 +13,7 @@ background-mobile:  'assets/img/background-images/home-mobile.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://adrianzqt.github.io
-#url:                http://localhost:4000/
+#url:                http://localhost:4000
 
 # Jekyll
 permalink:          none

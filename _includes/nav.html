@@ -3,7 +3,7 @@
 		<ul class="dl-menu">
 			<li><a href="{{ site.url }}/">主頁</a></li>
 			<li>
-				<a href="#">關於</a>
+				<a href="#">关于</a>
 				<ul class="dl-submenu">
 					<li>
 						<img src="{{ site.url }}/{{ site.avatar }}" alt="{{ site.title }} photo" class="author-photo">
@@ -85,13 +85,14 @@
                     </li>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
-			<li>
+			<!-- <li>
 				<a href="#">博客</a>
 				<ul class="dl-submenu">
-					<li><a href="{{ site.url }}/posts/">所有文章</a></li>
-					<li><a href="{{ site.url }}/tags/">文章分类</a></li>
+					<li><a href="{{ site.url }}/tech/">技术文章</a></li>
+						<li><a href="{{ site.url }}/life/">关于生活</a></li>
+					<li><a href="{{ site.url }}/tags/">全部文章</a></li>
 				</ul>
-			</li>
+			</li> -->
 			{% for link in site.data.navigation %}
 		    {% if link.url contains 'http' %}
 		        {% assign domain = '' %}

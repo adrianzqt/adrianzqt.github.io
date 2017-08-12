@@ -1,4 +1,7 @@
 # Site navigation links
-
-- title: 圖說
-  url: /galleries/
+- title: 技术
+  url: /tech/
+- title: 生活
+  url: /life/
+- title: 全部文章
+  url: /tags/

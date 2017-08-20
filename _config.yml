@@ -5,7 +5,7 @@ description:        "张青天的个人博客，技术，生活"
 keywords:           "张青天，技术博客，前端，生活，篮球"
 author:             "张青天"
 reading_time:       true
-words_per_minute:   100
+words_per_minute:   30
 logo:               'assets/img/logo.png'
 avatar:             'assets/img/avatar.jpeg'
 background:         'assets/img/background-images/home.jpg'

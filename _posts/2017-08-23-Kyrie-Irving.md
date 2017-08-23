@@ -3,7 +3,7 @@ layout: gallery
 title: "愿再见亦能如初见"
 date: 2017-08-23
 permalink: /:categories/:month-:day-:year/:title.html
-img: "/assets/img/life/irving01.jpg"
+img: "/assets/img/life/irving01.jpeg"
 gallery: true
 excerpt: "我相信，当面对奥克兰球场的山呼海啸，你的心里只有两个字---曼巴"
 categories: [life]

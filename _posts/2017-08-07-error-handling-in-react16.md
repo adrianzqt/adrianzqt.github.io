@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 【翻译】React16 中的错误处理
-date: 2017-8-07
+date: 2017-08-07
 permalink: /:categories/:month-:day-:year/:title.html
 excerpt: 随着 React16 发布的临近，我们想要宣告 React16 将怎样在组件内部处理JavaScript错误，这些变化将包括在 React16 beta 版本中，当然也是 React 16 的一部分......
 categories: [tech]

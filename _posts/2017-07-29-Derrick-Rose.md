@@ -1,7 +1,7 @@
 ---
 layout: gallery
 title: "不屈的克城玫瑰，愿你归来仍是少年"
-date: 2017-7-29
+date: 2017-07-29
 permalink: /:categories/:month-:day-:year/:title.html
 img: "/assets/img/life/rose-dunk.jpg"
 gallery: true

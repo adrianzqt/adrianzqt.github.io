@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 三种常见web攻击方式，xss、csrf和clickJacking
-date: 2017-8-20
+date: 2017-08-20
 permalink: /:categories/:month-:day-:year/:title.html
 excerpt: 最近看了360的前端面试题，其中涉及到了很多web安全的知识，突然意识到自己对这方面知之过少，所以花了一下午时间简单了解梳理了web安全相关的基础知识，在这里记录三种比较『纯』前端的攻击方式及其相应的防御方法......
 categories: [tech]

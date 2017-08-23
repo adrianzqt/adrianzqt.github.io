@@ -78,7 +78,7 @@ comments: false
 ## 我知道你经历的苦痛，也见证你的涅槃
 
 <figure>
-	<img src="{{ site.url }}/assets/img/life/irvinghurt.jpeg">
+	<img src="{{ site.url }}/assets/img/life/irvinghurt.JPEG">
 </figure>
 
 当你把牙齿咬碎了走出奥克兰球馆的时候，你又在想什么呢？

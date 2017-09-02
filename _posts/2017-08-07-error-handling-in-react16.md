@@ -28,7 +28,7 @@ Error Boundaries 可以捕获在其子组件树里抛出的任何错误，打印
 
 添加了一个叫做 `componentDidCatch(error, info)` 的新生命周期方法的组件就叫做 Error Boundaries
 
-~~~ruby
+~~~js
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
@@ -54,7 +54,7 @@ class ErrorBoundary extends React.Component {
 
 你仍然可以像正常组件一样使用它
 
-~~~ruby
+~~~html
 <ErrorBoundary>
   <MyWidget />
 </ErrorBoundary>
@@ -110,7 +110,7 @@ Facebook 把侧边栏，信息栏，对话框，和信息输入框放到了不�
 
 try/catch 适用于命令：
 
-~~~ruby
+~~~js
 try {
   showButton();
 } catch (error) {
